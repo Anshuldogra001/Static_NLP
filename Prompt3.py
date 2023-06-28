@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 import time
-
+# Log a call with James Veel saying that he is looking to buy 100 widgets
 def delay(x):
     time.sleep(x)
 
