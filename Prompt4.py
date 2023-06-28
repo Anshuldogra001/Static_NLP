@@ -8,9 +8,6 @@ def delay(x):
     time.sleep(x)
 
 def Find(name):
-    # l = len(range)
-    # if(range[l-1]=='k' or range[l-1]=='K'):
-    #     range=range[:l - 1] + "000"
 
     driver = webdriver.Chrome()
     driver.maximize_window()
@@ -40,11 +37,6 @@ def extract_name(input_string):
         if ent.label_ == "PERSON":
             return ent.text
     return None
-
-
-
-
-
 
 
 def getresult(message):
